@@ -315,15 +315,15 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
 		 */
 		private static var defaultStyles:Object = {
-											downArrowDisabledSkin:"fl.skin.NumericStepperDownArrow_disabledSkin",
-											downArrowDownSkin:"fl.skin.NumericStepperDownArrow_downSkin",
-											downArrowOverSkin:"fl.skin.NumericStepperDownArrow_overSkin",
-											downArrowUpSkin:"fl.skin.NumericStepperDownArrow_upSkin",
-											upArrowDisabledSkin:"fl.skin.NumericStepperUpArrow_disabledSkin",
-											upArrowDownSkin:"fl.skin.NumericStepperUpArrow_downSkin",
-											upArrowOverSkin:"fl.skin.NumericStepperUpArrow_overSkin",
-											upArrowUpSkin:"fl.skin.NumericStepperUpArrow_upSkin",
-											upSkin:"fl.skin.TextInput_upSkin", disabledSkin:"fl.skin.TextInput_disabledSkin",
+											downArrowDisabledSkin:"NumericStepperDownArrow_disabledSkin",
+											downArrowDownSkin:"NumericStepperDownArrow_downSkin",
+											downArrowOverSkin:"NumericStepperDownArrow_overSkin",
+											downArrowUpSkin:"NumericStepperDownArrow_upSkin",
+											upArrowDisabledSkin:"NumericStepperUpArrow_disabledSkin",
+											upArrowDownSkin:"NumericStepperUpArrow_downSkin",
+											upArrowOverSkin:"NumericStepperUpArrow_overSkin",
+											upArrowUpSkin:"NumericStepperUpArrow_upSkin",
+											upSkin:"TextInput_upSkin", disabledSkin:"TextInput_disabledSkin",
 											focusRect:null, focusRectSkin:null, focusRectPadding:null,
 											repeatDelay:500,repeatInterval:35, embedFonts:false
 											};

@@ -199,8 +199,8 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
          */
 		private static var defaultStyles:Object = {
-												upSkin:"fl.skin.TextInput_upSkin",
-												disabledSkin:"fl.skin.TextInput_disabledSkin",
+												upSkin:"TextInput_upSkin",
+												disabledSkin:"TextInput_disabledSkin",
 												focusRectSkin:null,
 												focusRectPadding:null,
 												textFormat:null,

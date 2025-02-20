@@ -245,10 +245,10 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
 		 */
 		private static var defaultStyles:Object = {icon:null,
-												  upIcon:"fl.skin.RadioButton_upIcon",downIcon:"fl.skin.RadioButton_downIcon",overIcon:"fl.skin.RadioButton_overIcon",
-												  disabledIcon:"fl.skin.RadioButton_disabledIcon",
-												  selectedDisabledIcon:"fl.skin.RadioButton_selectedDisabledIcon",
-												  selectedUpIcon:"fl.skin.RadioButton_selectedUpIcon",selectedDownIcon:"fl.skin.RadioButton_selectedDownIcon",selectedOverIcon:"fl.skin.RadioButton_selectedOverIcon",
+												  upIcon:"RadioButton_upIcon",downIcon:"RadioButton_downIcon",overIcon:"RadioButton_overIcon",
+												  disabledIcon:"RadioButton_disabledIcon",
+												  selectedDisabledIcon:"RadioButton_selectedDisabledIcon",
+												  selectedUpIcon:"RadioButton_selectedUpIcon",selectedDownIcon:"RadioButton_selectedDownIcon",selectedOverIcon:"RadioButton_selectedOverIcon",
 												  focusRectSkin:null,
 												  focusRectPadding:null,
 												  textFormat:null,

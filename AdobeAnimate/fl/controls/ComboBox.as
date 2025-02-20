@@ -685,10 +685,10 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
 		 */
 		private static var defaultStyles:Object = {
-				upSkin:"fl.skin.ComboBox_upSkin",
-				downSkin:"fl.skin.ComboBox_downSkin",
-				overSkin:"fl.skin.ComboBox_overSkin",
-				disabledSkin:"fl.skin.ComboBox_disabledSkin",
+				upSkin:"ComboBox_upSkin",
+				downSkin:"ComboBox_downSkin",
+				overSkin:"ComboBox_overSkin",
+				disabledSkin:"ComboBox_disabledSkin",
 				focusRectSkin:null, focusRectPadding:null,
 				textFormat:null, disabledTextFormat:null, textPadding:3,
 				buttonWidth:24,
@@ -1871,7 +1871,8 @@ package fl.controls {
 				//wheel down
 				selectedIndex = (selectedIndex == (length - 1) ? 0 : (selectedIndex + 1));
 			}
-            list.scrollToSelected()
+            list.scrollToSelected();
+            dispatchEvent(new Event(Event.CHANGE));
         }
 		
 		

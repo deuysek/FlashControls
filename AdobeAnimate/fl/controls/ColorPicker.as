@@ -552,14 +552,14 @@ package fl.controls {
          * @langversion 3.0
          * @playerversion Flash 9.0.28.0
          */
-		private static  var defaultStyles:Object = {upSkin:"fl.skin.ColorPicker_upSkin", disabledSkin:"fl.skin.ColorPicker_disabledSkin",
-														  overSkin:"fl.skin.ColorPicker_overSkin", downSkin:"fl.skin.ColorPicker_downSkin", colorWell:"fl.skin.ColorPicker_colorWell",
-														  swatchSkin:"fl.skin.ColorPicker_swatchSkin", swatchSelectedSkin:"fl.skin.ColorPicker_swatchSelectedSkin",
+		private static  var defaultStyles:Object = {upSkin:"ColorPicker_upSkin", disabledSkin:"ColorPicker_disabledSkin",
+														  overSkin:"ColorPicker_overSkin", downSkin:"ColorPicker_downSkin", colorWell:"ColorPicker_colorWell",
+														  swatchSkin:"ColorPicker_swatchSkin", swatchSelectedSkin:"ColorPicker_swatchSelectedSkin",
 														  swatchWidth:10, swatchHeight:10,
 														  columnCount:18, swatchPadding:1,
-														  textFieldSkin:"fl.skin.ColorPicker_textFieldSkin",
+														  textFieldSkin:"ColorPicker_textFieldSkin",
 														  textFieldWidth:null, textFieldHeight:null, textPadding:3,
-														  background:"fl.skin.ColorPicker_backgroundSkin", backgroundPadding:5,
+														  background:"ColorPicker_backgroundSkin", backgroundPadding:5,
 														  textFormat:null, focusRectSkin:null, focusRectPadding:null,
 														  embedFonts:false
 														  };

@@ -1419,10 +1419,18 @@ package fl.core {
 			try {
 				classDef = getDefinitionByName(skin.toString());
 			} catch(e:Error) {
-				try {
-					classDef = loaderInfo.applicationDomain.getDefinition(skin.toString()) as Object;
-				} catch (e:Error) {
-					// Nothing
+                try {
+					classDef = getDefinitionByName("fl.skin." + skin.toString());
+				} catch(e:Error) {
+                    try {
+                        classDef = loaderInfo.applicationDomain.getDefinition(skin.toString()) as Object;
+                    } catch (e:Error) {
+                        try {
+                            classDef = loaderInfo.applicationDomain.getDefinition("fl.skin." + skin.toString()) as Object;
+                        } catch (e:Error) {
+                            // Nothing
+                        }
+                    }
 				}
 			}
 			

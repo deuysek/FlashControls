@@ -221,10 +221,10 @@ package fl.controls.listClasses {
          * @langversion 3.0
          * @playerversion Flash 9.0.28.0
          */
-		private static var defaultStyles:Object = {upSkin:"fl.skin.CellRenderer_upSkin",downSkin:"fl.skin.CellRenderer_downSkin",overSkin:"fl.skin.CellRenderer_overSkin",
-												  disabledSkin:"fl.skin.CellRenderer_disabledSkin",
-												  selectedDisabledSkin:"fl.skin.CellRenderer_selectedDisabledSkin",
-												  selectedUpSkin:"fl.skin.CellRenderer_selectedUpSkin",selectedDownSkin:"fl.skin.CellRenderer_selectedDownSkin",selectedOverSkin:"fl.skin.CellRenderer_selectedOverSkin",
+		private static var defaultStyles:Object = {upSkin:"CellRenderer_upSkin",downSkin:"CellRenderer_downSkin",overSkin:"CellRenderer_overSkin",
+												  disabledSkin:"CellRenderer_disabledSkin",
+												  selectedDisabledSkin:"CellRenderer_selectedDisabledSkin",
+												  selectedUpSkin:"CellRenderer_selectedUpSkin",selectedDownSkin:"CellRenderer_selectedDownSkin",selectedOverSkin:"CellRenderer_selectedOverSkin",
 												  textFormat:null,
 												  disabledTextFormat:null,
 												  embedFonts:null,

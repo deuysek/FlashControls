@@ -176,12 +176,12 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
 		 */
 		private  static var defaultStyles:Object = {icon:null,
-												  upIcon:"fl.skin.CheckBox_upIcon",downIcon:"fl.skin.CheckBox_downIcon",overIcon:"fl.skin.CheckBox_overIcon",
-												  disabledIcon:"fl.skin.CheckBox_disabledIcon",
-												  selectedDisabledIcon:"fl.skin.CheckBox_selectedDisabledIcon",
+												  upIcon:"CheckBox_upIcon",downIcon:"CheckBox_downIcon",overIcon:"CheckBox_overIcon",
+												  disabledIcon:"CheckBox_disabledIcon",
+												  selectedDisabledIcon:"CheckBox_selectedDisabledIcon",
 												  focusRectSkin:null,
 												  focusRectPadding:null,
-												  selectedUpIcon:"fl.skin.CheckBox_selectedUpIcon",selectedDownIcon:"fl.skin.CheckBox_selectedDownIcon",selectedOverIcon:"fl.skin.CheckBox_selectedOverIcon",
+												  selectedUpIcon:"CheckBox_selectedUpIcon",selectedDownIcon:"CheckBox_selectedDownIcon",selectedOverIcon:"CheckBox_selectedOverIcon",
 												  textFormat:null,
 												  disabledTextFormat:null,
 												  embedFonts:null,

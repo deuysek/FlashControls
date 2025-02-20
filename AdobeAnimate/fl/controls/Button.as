@@ -90,7 +90,7 @@ package fl.controls {
          * @playerversion Flash 9.0.28.0
          */
 		private static var defaultStyles:Object = {
-			emphasizedSkin:"fl.skin.Button_emphasizedSkin", emphasizedPadding:2
+			emphasizedSkin:"Button_emphasizedSkin", emphasizedPadding:2
 		};
 		
         /**

@@ -1039,12 +1039,12 @@ package fl.containers {
 			if (!enabled || !_verticalScrollBar.visible || contentHeight <= availableHeight) {
 				return;
 			}
-            var targetPos:Number = _verticalScrollBar.scrollPosition - event.delta * verticalLineScrollSize;
-            if (_tween && _tween.isPlaying) {
-                _tween.destroy();
-                targetPos = _tween.finish - event.delta * verticalLineScrollSize;
-            }
-            _tween = new Tween(_verticalScrollBar,"scrollPosition",null,_verticalScrollBar.scrollPosition,targetPos,0.3,true);
+            // var targetPos:Number = _verticalScrollBar.scrollPosition - event.delta * verticalLineScrollSize;
+            // if (_tween && _tween.isPlaying) {
+            //     _tween.destroy();
+            //     targetPos = _tween.finish - event.delta * verticalLineScrollSize;
+            // }
+            // _tween = new Tween(_verticalScrollBar,"scrollPosition",null,_verticalScrollBar.scrollPosition,targetPos,0.3,true);
 			_verticalScrollBar.scrollPosition -= event.delta * verticalLineScrollSize;
 			setVerticalScrollPosition(_verticalScrollBar.scrollPosition);
 			

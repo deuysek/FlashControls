@@ -291,10 +291,10 @@ package fl.controls {
          * @langversion 3.0
          * @playerversion Flash 9.0.28.0
          */
-		private static var defaultStyles:Object = {upSkin:"fl.skin.Button_upSkin",downSkin:"fl.skin.Button_downSkin",overSkin:"fl.skin.Button_overSkin",
-												  disabledSkin:"fl.skin.Button_disabledSkin",
-												  selectedDisabledSkin:"fl.skin.Button_selectedDisabledSkin",
-												  selectedUpSkin:"fl.skin.Button_selectedUpSkin",selectedDownSkin:"fl.skin.Button_selectedDownSkin",selectedOverSkin:"fl.skin.Button_selectedOverSkin",
+		private static var defaultStyles:Object = {upSkin:"Button_upSkin",downSkin:"Button_downSkin",overSkin:"Button_overSkin",
+												  disabledSkin:"Button_disabledSkin",
+												  selectedDisabledSkin:"Button_selectedDisabledSkin",
+												  selectedUpSkin:"Button_selectedUpSkin",selectedDownSkin:"Button_selectedDownSkin",selectedOverSkin:"Button_selectedOverSkin",
 												  focusRectSkin:null, focusRectPadding:null,
 												  repeatDelay:500,repeatInterval:35};
         /**
