@@ -1866,6 +1866,7 @@ package fl.controls {
 			if (length == 0) return;
             if(event.delta > 0){
 				//wheel up
+                if(selectedIndex < 0) selectedIndex = 0;
 				selectedIndex = (selectedIndex == 0 ? (length - 1) : (selectedIndex - 1));
 			}else{
 				//wheel down
